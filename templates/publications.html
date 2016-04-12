@@ -1,0 +1,69 @@
+{% block content %}        
+
+<script type="text/javascript">
+    function disp(s) {
+        var win;
+        var doc;
+        win = window.open("", "WINDOWID");
+        doc = win.document;
+        doc.open("text/plain");
+        doc.write("<pre>" + s + "</pre>");
+        doc.close();
+    }
+</script>
+<!-- <style type="text/css">
+  .toggleinv {
+  display: none;
+  }
+  .togglevis {
+  color: #111111;
+  font-size: 8pt;
+  }
+</style>
+<script type="text/javascript">
+   var oldel = '';
+   function toggle(s) {
+        var elem = document.getElementById(obj);
+        if ( elem.className != 'toggleinv' ) {
+                elem.className='toggleinv';
+        }
+        else {
+                elem.className='togglevis';
+        }
+        if (oldel != elem ){
+                oldel.className='toggleinv';
+                oldel=elem;
+        }
+   }
+</script>
+-->
+
+{# <section id="content" class="body">    #}
+    {% for yeargroup in publications|groupby('year')|reverse %}
+    {# <h2> {{ yeargroup.grouper }} </h2> #}
+    <ul class="simple">
+    {% for item  in yeargroup.list %}
+      <li id="{{ item.id }}">{{ item.author }},
+        <em>{{ item.title}}</em>{% if not '.' == item.title|last %}.{% endif %}
+        {% if item.in|d(false) %}
+        in {{ item.journal }}{{ item.booktitle }},
+        {% endif %}
+        {% if item.ref|d(false) %}
+        {{ item.ref }},
+        {% endif %}
+        {% if item.pages|d(false) %}
+        pages {{ item.pages }},
+        {% endif %}
+        {{item.year}}
+        <br />
+        [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
+        {% for label, target in [('PDF', item.pdf|d(false)), ('Slides', item.slides|d(false)), ('Poster', item.poster|d(false))] %}
+        {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
+        {% endfor %} 
+      </li>
+    {% endfor %}
+    </ul>
+    {% endfor %}
+{# </section> #}
+{% endblock %}
+

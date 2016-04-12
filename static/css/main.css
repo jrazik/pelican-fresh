@@ -1,6 +1,6 @@
 @import url("pygment.css");
-@import url(//fonts.googleapis.com/css?family=Overlock:400,700,900);
-@import url(//fonts.googleapis.com/css?family=PT+Mono);
+@import url(http://fonts.googleapis.com/css?family=Overlock:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
 /*
  *  Name: Fresh
  *  Date: February 2013
@@ -297,3 +297,9 @@ li.tag-2 {
 li.tag-1 {
   font-size: 1.4em;
   font-weight: 400; }
+.strike {
+    text-decoration: line-through;
+}
+.docutils.literal {
+    background-color: #EEE;
+}

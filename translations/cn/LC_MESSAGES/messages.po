@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-07-27 21:11+0100\n"
+"PO-Revision-Date: 2015-07-27 21:13+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.8.1\n"
+"Language: cn"
+
+#: archives.html:2 archives.html:3 archives.html:10
+msgid "Archives for"
+msgstr "案卷"
+
+#: article.html:44
+msgid "Comments"
+msgstr "意见"
+
+#: article_infos.html:12
+msgid "by"
+msgstr "的"
+
+#: article_infos.html:17
+msgid "in"
+msgstr "在"
+
+#: article_infos.html:19
+msgid "on"
+msgstr "在"
+
+#: article_infos.html:30
+msgid "Get the pdf"
+msgstr "获取PDF"
+
+#: article_infos.html:35
+msgid "comments"
+msgstr "意见"
+
+#: categories.html:2 categories.html:3 categories.html:10
+msgid "Categories for"
+msgstr "为类别"
+
+#: category.html:3
+msgid "Articles in"
+msgstr "在文章"
+
+#: index.html:30
+msgid "Read more..."
+msgstr "阅读更多"
+
+#: index.html:48
+msgid "Pages"
+msgstr "网页"
+
+#: index.html:62
+msgid "Links"
+msgstr "链接"
+
+#: index.html:72
+msgid "Social"
+msgstr "社会的"
+
+#: index.html:74
+msgid "atom feed"
+msgstr "atom 饲料"
+
+#: index.html:76
+msgid "rss feed"
+msgstr "rss 饲料"
+
+#: page.html:13
+msgid "get the pdf"
+msgstr "获取PDF"
+
+#: tag.html:3
+msgid "Articles tagged with"
+msgstr "文章摘要标记"
+
+#: tags.html:2 tags.html:3 tags.html:10
+msgid "Tags for"
+msgstr "标签"

@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-07-27 21:06+0100\n"
+"PO-Revision-Date: 2015-07-27 21:10+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 1.8.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr"
+
+#: archives.html:2 archives.html:3 archives.html:10
+msgid "Archives for"
+msgstr "Archives pour"
+
+#: article.html:44
+msgid "Comments"
+msgstr "Commentaires"
+
+#: article_infos.html:12
+msgid "by"
+msgstr "par"
+
+#: article_infos.html:17
+msgid "in"
+msgstr "pour"
+
+#: article_infos.html:19
+msgid "on"
+msgstr "le"
+
+#: article_infos.html:30
+msgid "Get the pdf"
+msgstr "Obtenir le pdf"
+
+#: article_infos.html:35
+msgid "comments"
+msgstr "commentaires"
+
+#: categories.html:2 categories.html:3 categories.html:10
+msgid "Categories for"
+msgstr "Catégories pour"
+
+#: category.html:3
+msgid "Articles in"
+msgstr "Articles pour"
+
+#: index.html:30
+msgid "Read more..."
+msgstr "Plus..."
+
+#: index.html:48
+msgid "Pages"
+msgstr "Pages"
+
+#: index.html:62
+msgid "Links"
+msgstr "Liens"
+
+#: index.html:72
+msgid "Social"
+msgstr "Social"
+
+#: index.html:74
+msgid "atom feed"
+msgstr "flux atom"
+
+#: index.html:76
+msgid "rss feed"
+msgstr "flux rss"
+
+#: page.html:13
+msgid "get the pdf"
+msgstr "obtenir le pdf"
+
+#: tag.html:3
+msgid "Articles tagged with"
+msgstr "Articles marqués avec"
+
+#: tags.html:2 tags.html:3 tags.html:10
+msgid "Tags for"
+msgstr "Tags pour"
